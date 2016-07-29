@@ -1,3 +1,5 @@
+import pandas as pd
+
 english_phone_brands_mapping = {
     "三星": "samsung",
     "天语": "Ktouch",
@@ -99,9 +101,9 @@ english_phone_brands_mapping = {
     "奥克斯" : "AUX"
 }
 
-phone_brand_device_model = pd.read_csv('../input/phone_brand_device_model.csv')
-print(phone_brand_device_model.head(n=50))
+phone_brand_device_model = pd.read_csv('files/phone_brand_device_model.csv')
+print(phone_brand_device_model.head(n=5))
 phone_brand_device_model.phone_brand = phone_brand_device_model.phone_brand.map(pd.Series(english_phone_brands_mapping), na_action='ignore')
-print(phone_brand_device_model.head(n=50))
+print(phone_brand_device_model.head(n=5))
 
-print(phone_brand_device_model.isnull().sum())
+phone_brand_device_model.to_csv("files/phone_brand_device_model_engl.csv")

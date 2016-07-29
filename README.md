@@ -14,7 +14,7 @@
 # Available competitions
 
 ## TalkingData
-Competition about mobile data. The goal is to predict the gender and age based on data from smartphones. This competition is tackled with open source **Python3** libraries.
+Competition about mobile data. The goal is to predict the gender and age based on data from smartphones. This competition is tackled with open source **Python3** libraries and uses jupyter notebooks to document steps.
 
 ---
 ---

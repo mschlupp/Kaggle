@@ -11,3 +11,9 @@ I am going to document all the steps in Jupyter notebooks.
    - Use the merged data in a new notebook to create new features with which a first model can be trained
 
 * 2_understand_events_data:
+   - creates hasEvents, nEvts, and mean/variance of longitude and latitude variables
+   - splits timestamp into day and hour
+
+* predict_classes:
+   - introduces reference model to be tested against new ML models
+   

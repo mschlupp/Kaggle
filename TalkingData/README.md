@@ -17,3 +17,4 @@ I am going to document all the steps in Jupyter notebooks.
 * predict_classes:
    - introduces reference model to be tested against new ML models
    - Reference: probabilities are equal to *n(per group)/n(total)*
+      * scores: 2.42762 on kaggle

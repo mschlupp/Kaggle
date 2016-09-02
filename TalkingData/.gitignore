@@ -1,3 +1,6 @@
 files/*
 .ipynb*
 trainedModels/*
+*pkl
+predictions/*
+finalOutputs/*

@@ -2,3 +2,4 @@ files/*
 .ipynb*
 trainedModels/*
 predictions/*
+plots/*
